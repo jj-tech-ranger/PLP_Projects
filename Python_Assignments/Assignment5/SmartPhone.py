@@ -25,5 +25,5 @@ class Smartphone:
 my_phone = Smartphone("Apple", "iPhone 14", 20)
 my_phone.display_info()
 my_phone.turn_on()
-my_phone.make_call("123-456-7890")
+my_phone.make_call("0712345678")
 my_phone.turn_off()
