@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Karate School Registration 🥋</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #001f3f; color: #ffffff; margin: 0; padding: 20px;">
+
+    <!-- Navigation Bar -->
+    <nav style="background-color: #003366; padding: 10px; border-radius: 8px; margin-bottom: 20px;">
+        <ul style="list-style-type: none; padding: 0; text-align: center;">
+            <li style="display: inline; margin-right: 20px;">
+                <a href="#training-grounds" style="color: #ffffff; text-decoration: none;">Training Grounds</a>
+            </li>
+            <li style="display: inline; margin-right: 20px;">
+                <a href="#why-join" style="color: #ffffff; text-decoration: none;">Why Join Us?</a>
+            </li>
+            <li style="display: inline; margin-right: 20px;">
+                <a href="#contact" style="color: #ffffff; text-decoration: none;">Contact Us</a>
+            </li>
+            <li style="display: inline;">
+                <a href="#registration" style="color: #ffffff; text-decoration: none;">Registration</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header style="text-align: center; padding: 20px; background-color: #003366; border-radius: 8px;">
+        <h1>Welcome to JJ's Karate School! 🥋</h1>
+        <p>Join our dojo and master the art of karate while fostering discipline and focus. 💪</p>
+    </header>
+
+    <section id="training-grounds" style="margin: 20px 0; padding: 15px; background-color: #004080; border-radius: 8px;">
+        <h2>Our Training Grounds 🌱</h2>
+        <img src="https://images.pexels.com/photos/3822624/pexels-photo-3822624.jpeg" alt="Karate action" width="800" style="border-radius: 8px;">
+    </section>
+
+    <section id="why-join" style="margin: 20px 0; padding: 15px; background-color: #004080; border-radius: 8px;">
+        <h2>Why Join Us? 🌟</h2>
+        <ol type="I" style="padding-left: 20px;">
+            <li>Learn discipline and focus.</li>
+            <li>Develop self-defense skills.</li>
+            <li>Build strength and confidence.</li>
+        </ol>
+    </section>
+
+    <section id="contact" style="margin: 20px 0; padding: 15px; background-color: #004080; border-radius: 8px;">
+        <h2>Contact Us 📨</h2>
+        <table border="1" style="border-collapse: collapse; width: 100%; background-color: #ffffff; color: #000000;">
+            <thead>
+                <tr style="background-color: #003366; color: #ffffff;">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jay Jay</td>
+                    <td>jayjay@gmail.com</td>
+                    <td>0701234567</td>
+                    <td>Nairobi, Kenya</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>johndoe@gmail.com</td>
+                    <td>0123456789</td>
+                    <td>Mombasa, Kenya</td>
+                </tr>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>janedoe@gmail.com</td <td>0109876543</td>
+                    <td>Kisumu, Kenya</td>
+                </tr>
+                <tr>
+                    <td>Twyla Gill</td>
+                    <td>twylagill@gmail.com</td>
+                    <td>012547876</td>
+                    <td>Nakuru, Kenya</td>
+                </tr>
+                <tr>
+                    <td>Mark Smith</td>
+                    <td>marksmith@gmail.com</td>
+                    <td>0709876543</td>
+                    <td>Eldoret, Kenya</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="registration" style="margin: 20px 0; padding: 15px; background-color: #004080; border-radius: 8px;">
+        <h2>Registration Form 📝</h2>
+        <form method="POST" action="https://formspree.io/free@karate.school" style="display: flex; flex-direction: column; gap: 10px;">
+            <label for="name" style="color: #ffffff;">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name.." required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+
+            <label for="email" style="color: #ffffff;">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+
+            <label for="phone" style="color: #ffffff;">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone.." required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+
+            <label for="address" style="color: #ffffff;">Address:</label>
+            <input type="text" id="address" name="address" placeholder="i.e Nairobi.." required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+
+            <label for="password" style="color: #ffffff;">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your password.." required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+
+            <label for="date" style="color: #ffffff;">Date of Birth:</label>
+            <input type="date" id="date" name="date" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+
+            <label for="experience" style="color: #ffffff;">Experience Level:</label>
+            <select id="experience" name="experience" required style="padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+                <option value="beginner">Beginner 🥋</option>
+                <option value="intermediate">Intermediate 💪</option>
+                <option value="advanced">Advanced 🌟</option>
+            </select>
+
+            <label style="color: #ffffff;">Preferred Training Time:</label>
+            <div>
+                <input type="radio" id="morning" name="training_time" value="morning" required>
+                <label for="morning" style="color: #ffffff;">Morning 🌅</label>
+                <input type="radio" id="afternoon" name="training_time" value="afternoon" required>
+                <label for="afternoon" style="color: #ffffff;">Afternoon</label>
+                <input type="radio" id="evening" name="training_time" value="evening" required>
+                <label for="evening" style="color: #ffffff;">Evening 🌙</label>
+            </div>
+
+            <label style="color: #ffffff;">Areas of Interest:</label>
+            <div>
+                <input type="checkbox" id="kata" name="interest_kata" value="kata">
+                <label for="kata" style="color: #ffffff;">Kata (Forms) 🥋</label><br>
+                <input type="checkbox" id="sparring" name="interest_sparring" value="sparring">
+                <label for="sparring" style="color: #ffffff;">Sparring 💥</label><br>
+                <input type="checkbox" id="fitness" name="interest_fitness" value="fitness">
+                <label for="fitness" style="color: #ffffff;">Fitness 💪</label>
+            </div>
+
+            <button type="submit" style="padding: 10px; background-color: #003366; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">Submit 📨</button>
+        </form>
+    </section>
+</body>
+</html>

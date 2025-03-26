@@ -1,0 +1,117 @@
+html {
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    color: #f8f9fa;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 2.5em;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 15px;
+    margin-bottom: 35px;
+}
+
+header input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #313131;
+    font-size: 15px;
+    font-weight: 300;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+header input:focus {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.search-button {
+    margin-left: 5px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.location .city {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.location .date {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.current .temp {
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 900;
+    margin-top: 15px;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.current .temp span {
+    font-weight: 500;
+}
+
+.current .weather {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+}

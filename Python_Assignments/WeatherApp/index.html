@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App 🌦️</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
+</head>
+<body>
+    <div class="app">
+        <h1>Weather App 🌦️</h1>
+        <header>
+            <input type="text" placeholder="🌎 Enter city name..." id="city">
+            <button class="search-button">
+                <i class="fas fa-search"></i> 🔍
+            </button>
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">🏙️ City Name</div>
+                <div class="date">📅 Date</div>
+            </section>
+            <div class="current">
+                <div class="temp">🌡️ <span>Temperature</span></div>
+                <div class="weather">☁️ Weather Description</div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
