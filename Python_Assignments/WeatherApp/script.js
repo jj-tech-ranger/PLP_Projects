@@ -1,4 +1,3 @@
-// Fix query selector for inputValue
 let inputValue = document.querySelector("#city");
 let button = document.querySelector(".search-button");
 let city = document.querySelector(".location .city");
